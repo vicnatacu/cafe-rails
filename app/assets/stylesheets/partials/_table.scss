@@ -1,0 +1,22 @@
+.table {
+    @include font-settings;
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    height: 20vh;
+    th {
+        font-family: $header-font;
+        background-color: $header-bg-color;
+        
+    }
+
+    tr {
+        &:nth-child(odd) {
+        background-color: $table-alt-bg-color;
+        }
+    
+        &:nth-child(even){
+            background-color: $table-bg-color;
+        }
+    }
+}

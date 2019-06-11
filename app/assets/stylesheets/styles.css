@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette|Roboto&display=swap");
+h1 {
+  font-family: "Courgette", cursive;
+  font-size: 2.5em;
+  color: #4B4351;
+  width: 100%;
+  background-color: #2980B9;
+  height: 10vh;
+  padding-top: 15px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F5F4ED;
+  height: 100vh;
+}
+
+.table {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  color: #4B4351;
+  width: 80%;
+  background-color: white;
+  padding: 10px;
+  height: 20vh;
+}
+
+.table th {
+  font-family: "Courgette", cursive;
+  background-color: #2980B9;
+}
+
+.table tr:nth-child(odd) {
+  background-color: #EAEDED;
+}
+
+.table tr:nth-child(even) {
+  background-color: #BFC9CA;
+}
+
+.page-img {
+  width: 50%;
+  padding-bottom: 20px;
+  height: 50vh;
+  border-radius: 90%;
+}
+/*# sourceMappingURL=styles.css.map */

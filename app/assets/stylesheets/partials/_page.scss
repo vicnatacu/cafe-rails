@@ -1,0 +1,15 @@
+h1 {
+    @include font-settings($font-fam: $header-font, $size: 2.5em, $color: $main-font-color);
+    width: 100%;
+    background-color: $header-bg-color;
+    height: 10vh;
+    padding-top: 15px;
+
+}
+
+.container {
+    @include flex-center;
+    background-color: $page-color;
+    height: 100vh;
+    
+}
